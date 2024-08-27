@@ -1,0 +1,5 @@
+python -m venv ragspm_env
+source ragspm_env/bin/activate  # On Unix or MacOS
+ragspm_env\Scripts\activate      # On Windows
+pip install langchain_experimental langchain[docarray] langchain_openai transformers python-dotenv langchain openai tiktoken faiss-gpu rag
+pip freeze > requirements.txt
