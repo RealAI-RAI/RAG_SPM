@@ -1,0 +1,2 @@
+git config --global --add url."https://".insteadOf git://
+git clone https://<your_github_token>@github.com/RealAI-RAI/RAG_SPM.git
